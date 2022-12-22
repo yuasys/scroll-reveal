@@ -12,8 +12,8 @@
 [ここ](https://github.com/Shin-sibainu/Reveal-Scroll-Animation)にあります。  
 
 1. スクロール効果ライブラリで有名な [ScrollRevealの公式サイト](https://scrollrevealjs.org/)です。
-2. 実際の動きは[このリンク](https://yuasys.github.io/scroll-reveal/)（※右クリック➜「新しいタブで開く」の使用をおすすめします）から確認できます。
-3. コンテンツの一部で、[Fontoawesome](https://fontawesome.com/)のお世話になっています。
-3. コンテンツ内のテキストボックスには曇りガラス効果（backdrop-filter)が用いられていますが、[モバイルでは無効](https://caniuse.com/css-backdrop-filter)な場合があるので、注意が必要です。  
+1. 実際の動きは[このリンク](https://yuasys.github.io/scroll-reveal/)（※右クリック➜「新しいタブで開く」の使用をおすすめします）から確認できます。
+1. コンテンツの一部で、[Fontoawesome](https://fontawesome.com/)のお世話になっています。
+1. コンテンツ内のテキストボックスには曇りガラス効果（backdrop-filter)が用いられていますが、[モバイルでは無効](https://caniuse.com/css-backdrop-filter)な場合があるので、注意が必要です。  
 例えば、iPhone標準のSfariの場合「backdrop-filter: blur(20px);」などとしても無効なので、直後の行に  
 CSSのプロパティ名に接頭辞「-webkit-」を付けて、「-webkit-backdrop-filter: blur(20px);」などとした行を追加してあげるとOKになります。
